@@ -1,0 +1,165 @@
+# Page settings
+
+baseURL = "http://example.org/"
+languageCode = "en"
+title = ""
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+[params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+    [params.profile]
+        enable = true
+        name = "Alice de Chalendar"
+        tagline = "Etudiant"
+        avatar = "alice.png"
+
+
+
+    [params.contact]
+        enable = true
+        location = "Vannes"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "06 74 57 26 16"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "alicedechalendar7gmail.com"
+        
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Language de programmation"
+        [[params.skills.list.items]]
+        details = "Java"
+        [[params.skills.list.items]]
+        details = "HTML/CSS"
+        [[params.skills.list.items]]
+        details = "JavaScript/Php"
+        [[params.skills.list.items]]
+        details = "MySQL"
+        [[params.skills.list.items]]
+        details = "C/C++"
+        
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Travail d'équipe"
+        
+
+
+    [params.education]
+        enable = true
+		
+        [[params.education.list]]
+        degree = "BUT Informatique"
+        university = "IUT Vannes"
+        dates = "2022 - Auj"
+        [[params.education.list]]
+        degree = "PEID"
+        university = "ENSIBS"
+        dates = "2022 - Auj"
+        [[params.education.list]]
+        degree = "BAFA"
+        university = "UFCV"
+        dates = "2021 - Auj"
+        [[params.education.list]]
+        [[params.education.list]]
+        degree = "Bac Technologique STI2D"
+        university = "Lycée Polyvalent Pierre Emile Martin"
+        dates = "2020 - 2022"
+        
+        
+
+    [params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        name = "Certification PIX"
+        body = "Gouvernement"
+        date = "2022"
+        
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Français"
+        level = "Langue Maternel"
+        [[params.languages.list]]
+        name = "Anglais"
+        level = "B1"
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Danse classique"
+        [[params.interests.list]]
+        name = "Danse contemporaine"
+        
+
+
+    [params.summary]
+        enable = true
+        text = "Je suis actuellement en BUT Informatique ainsi qu'à l'ENSIBS à Vannes (56000). Je suis rigoureuse, travailleuse et organisée. Je suis également apte au trvail en groupe."
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Animatrice Stagiaire"
+        dates = "juillet 2022 - août 2022"
+        company = "Septaine"
+        [[params.experience.list.items]]
+        details = "Imaginer et réaliser des projets d'animations"
+        [[params.experience.list.items]]
+        details = "Définir les besoins du publics afin d'adapter ses animations"
+        [[params.experience.list.items]]
+        details = "Aider les jeunes à évoluer et à se sociabiliser"
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Jeu de Grundy"
+        meta = "Java"
+        tagline = "Le jeu de Grundy est un jeu qui se joue à deux joueurs. L’objectif de ce projet était d’écrire un programme java qui permet de jouer des parties du jeu de Grundy dans une première version joueur contre joueur puis dans un seconde joueuer contre ordinateur."
+
+        [[params.projects.list]]
+        title = "Création d'une bases de donnée"
+        meta = "Oracle"
+        tagline = "Dans un premier temps le prjets consister à traduire un cahier des charches en digramme UML. Ensuite nous devons traduire le diagramme UML obtenu en shéma relationnel. Enfin nous devons traduire le schéma relationnel obtenu en table SQL"
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/username"
+        title = "username"
+        
